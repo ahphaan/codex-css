@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Site</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>Hello there! I'm a developer based within the Maldives.
+         I have been playing around with computers for a long time.
+         When I'm not coding, you can find me reading or out and about.
+      </p>
+      <img src="https://canohealth.com/wp-content/uploads/2022/07/mental-health-benefits-of-walking-outside-1280x720.jpg" alt="A scenic outdoor view" />
+      <p>I am currently finishing up the Web Development pathway within Codex.</p>
+    </section>
+
+    <section id="projects">
+      <h2>What I've worked on</h2>
+      <div class="project">
+        <h3>Rakaa Cafe' Website</h3>
+        <img src="https://firebasestorage.googleapis.com/v0/b/codedex-io.appspot.com/o/community%2Ffinal-project%2Fpost%2Fg01mhhzLQACSDSK5gwFW%2FMenu.png?alt=media&token=614eb8b6-e5e3-4598-8127-fdd9b33b8ad0" alt="Rakaa Cafe website screenshot">
+        <p>As part of the HTML Codex course, I created a website for a local cafe called 'Rakaa' as my final project.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Leave a message</h2>
+      <form>
+        <label for="name">What's your name?</label>
+        <input type="text" id="name" placeholder="Your name" />
+
+        <label for="contact_op">How can I reach you?</label>
+        <input type="email" id="contact_op" placeholder="Your email address" />
+
+        <label for="topic">What would you like to discuss?</label>
+        <textarea id="topic" rows="4" placeholder="Type your message here..."></textarea>
+
+        <label>Are you having a good day?</label>
+        <div class="radio-group">
+          <input type="radio" id="yes" name="gday" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="gday" value="no">
+          <label for="no">No</label>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Made with ❤️ in 2024</p>
+  </footer>
+</body>
+</html>
